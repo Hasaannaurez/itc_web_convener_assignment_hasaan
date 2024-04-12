@@ -350,7 +350,7 @@ body{
     }
     .mention li{
         width: 18%;
-        font-size: 18px;    
+        font-size: 16px;    
     } 
     .social{
         top:3300px;
@@ -376,6 +376,23 @@ body{
     
 }
 @media screen and (max-width:600px){
+    .mention{
+        top:2800px;
+    }
+    .mention ul:{
+        max-width: 1000px;
+    }
+    .mention li{
+        width: 18%;
+        font-size: 12px;    
+    } 
+    .social{
+        top:2900px;
+    }
+    .social li{
+        width: 6%;
+        font-size: 20px;    
+    } 
     .welcomehead{
         font-size: 50px;
     }
@@ -485,6 +502,23 @@ body{
     }
 }
 @media screen and (max-width:450px){
+    .mention{
+        top:6800px;
+    }
+    .mention ul:{
+        max-width: 1000px;
+    }
+    .mention li{
+        width: 18%;
+        font-size: 8px;    
+    } 
+    .social{
+        top:6900px;
+    }
+    .social li{
+        width: 6%;
+        font-size: 20px;    
+    } 
     .welcomehead{
         font-size: 40px;
     }
