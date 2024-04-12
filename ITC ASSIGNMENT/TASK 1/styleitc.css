@@ -1,0 +1,572 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+/* background video animation */
+.back-video{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    width: 1600px;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+body{
+    color:aliceblue;
+    
+
+
+}
+
+
+  
+.welcomehead {
+    text-align:center;
+    font-size: 100px;
+    color:aliceblue;
+    
+}
+.welcomehead:hover{
+    color: rgb(249, 87, 0);
+}
+.logoimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+}
+.logoline{
+    font-size: 50px;
+    text-align:center;
+    color:rgb(249, 87, 0);
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.6));
+      
+    
+
+}
+.about{
+    position:absolute;
+    left:40px;
+    right:65%;
+    top:600px;
+    font-size: 40px;
+}
+.abouthead{
+    position:relative;
+    color: rgb(249, 87, 0);
+    animation: fadeIn 3s;
+    
+    
+}
+.aboutp{
+    
+    font-size: 30px;
+    color: rgb(240, 158, 159);
+    animation: fadeIn 5s;
+}
+
+.aboutarticle{
+    font-size: 20px;
+    position: relative;
+    animation: fadeIn 7s;
+    
+
+}
+
+.itcpor{
+    
+    position: absolute;
+    left:50%;
+    top:675px;
+    animation: fadeIn 5s;
+}
+
+.itcpor img{
+    
+    width:80%
+}
+.clubs{
+    font-size: 60px;
+    position: absolute;
+    top:1300px;
+    box-sizing: border-box;
+    
+    
+}
+
+.clubshead{
+    text-align: left;
+    color: rgb(249, 87, 0);
+
+}
+.wncc{
+    background-color: aliceblue;
+}
+.aero{
+    background-color: aliceblue;
+    width: 10%;
+}
+.energy{
+    background-color: aliceblue;
+}
+
+
+.clubsdescription1{
+    text-align: center;
+    margin:40px 0;
+    white-space: nowrap;
+}
+.clubsdescription1 li{
+    display: inline-block;
+    width: 20%;
+    margin: 20px 2%;
+    
+}
+
+.clubsdescription1 li img{
+    max-width: 100%;
+}
+
+
+.clubsdescription2{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.clubsdescription2 li{
+    display: inline-block;
+    width: 20%;
+    margin: 20px 2%;
+}
+
+.clubsdescription2 li img{
+    max-width: 100%;
+}
+
+
+.techteams{
+    font-size: 60px;
+    position: absolute;
+    top:2300px;
+    box-sizing: border-box;
+    
+    
+}
+.techteamhead{
+    text-align: left;
+    color:rgb(249, 87, 0);
+
+}
+.techteamsdescription1{
+    text-align: center;
+    margin:40px 0;
+    white-space: nowrap;
+}
+.techteamsdescription1 li{
+    display: inline-block;
+    width: 20%;
+    margin: 5px 2%;
+}
+
+.techteamsdescription1 li img{
+    max-width: 100%;
+}
+
+
+.techteamsdescription2{
+    text-align: center;
+    margin:40px 0;
+    white-space: nowrap;
+}
+.techteamsdescription2 li{
+    display: inline-block;
+    width: 20%;
+    margin: 5px 2%;
+}
+
+.techteamsdescription2 li img{
+    max-width: 100%;
+}
+
+
+
+.techteamsdescription3{
+    text-align: center;
+    margin:40px 0;
+    white-space: nowrap;
+}
+.techteamsdescription3 li{
+    display: inline-block;
+    width: 20%;
+    margin: 5px 2%;
+}
+
+.techteamsdescription3 li img{
+    max-width: 100%;
+    
+}
+
+
+
+.clubs li:hover{
+    position:relative;
+    top: -7px;
+}
+.techteams li:hover{
+    position:relative;
+    top: -7px;
+}
+.techteamsdescription4 img {
+    position:relative;
+    left:40%;
+    width: 20%; 
+     
+}
+.techteamsdescription4:hover{
+    position:relative;
+    top: -7px;
+}
+
+.mention{
+    position: absolute;
+    top:3900px;
+    background-color: #F4F4F4;
+    padding: 20px;
+    right:0;
+    left:0;
+    
+}
+.mention ul:{
+    white-space: nowrap;
+    max-width: 1400px;
+    margin:0 auto;
+    
+}
+.mention li{
+    width: 18%;
+    display: inline-block;
+    font-size: 20px;    
+} 
+
+.mention a{
+    text-decoration: none;
+    color: rgb(223, 111, 26);
+    
+}
+.social{
+    position: absolute;
+    top:3995px;
+    
+    padding-top: 20px;
+    right:0;
+    left:0;
+    
+}
+.social ul:{
+    white-space: nowrap;
+    max-width: 1400px;
+    margin:0 auto;
+    
+    
+}
+.social li{
+    width: 3%;
+    display: inline-block;
+    font-size: 20px;    
+} 
+
+.social a{
+    text-decoration: none;
+    color:rgb(223, 111, 26) ;
+}
+@media screen and (max-width:1000px){
+    .mention{
+        top:3200px;
+    }
+    .mention ul:{
+        max-width: 1000px;
+    }
+    .mention li{
+        width: 18%;
+        font-size: 18px;    
+    } 
+    .social{
+        top:3300px;
+    }
+    
+    
+
+    
+    .welcomehead{
+        font-size: 70px;
+    }
+    .logoline{
+        font-size: 30px;
+    }
+    .about{
+        top:500px;
+    }
+
+    .abouthead{
+        font-size: 35px;
+    }
+    .aboutp{
+        font-size: 22px;
+    }
+    .aboutarticle{
+        font-size: 18px;
+    }
+    .itcpor{
+        left:50%;
+        top:575px
+    }
+    .clubshead{
+        font-size: 35px;
+    }
+    .techteamhead{
+        font-size: 35px;
+    }
+    .techteamsdescription4 li img{
+        width: 10%;
+    }
+    .clubs{
+        top:1100px;
+    }
+    .techteams{
+        top:1900px;
+    }
+}
+@media screen and (max-width:750px){
+    .mention{
+        top:3200px;
+    }
+    .mention ul:{
+        max-width: 1000px;
+    }
+    .mention li{
+        width: 18%;
+        font-size: 18px;    
+    } 
+    .social{
+        top:3300px;
+    }
+    .aboutp{
+        font-size: 18px;
+    }
+    .aboutarticle{
+        font-size: 15px;
+    }
+    .about{
+        top:400px;
+    }
+    .itcpor{
+        top:500px;
+    }
+    .clubs{
+        top:900px;
+    }
+    .techteams{
+        top:1600px
+    }
+    
+}
+@media screen and (max-width:600px){
+    .welcomehead{
+        font-size: 50px;
+    }
+    .logoline{
+        font-size: 25px;
+    }
+    .about{
+        position:absolute;
+        left:15%;
+        right:10px;
+        top:300px;
+        font-size: 40px;
+    }
+    .abouthead{
+        position:relative;
+        font-size: 35px;
+        
+    }
+    .aboutp{
+        
+        font-size: 25px;
+    }
+    
+    .aboutarticle{
+        font-size: 18px;
+        position: relative;
+        
+    
+    }
+    .itcpor{
+        top:700px;
+        left:15%;
+        width: 100%;
+    }
+    .clubs{
+        top:1100px;
+        
+    }
+    .clubshead{
+        font-size: 30px;
+    }
+    .techteamhead{
+        font-size: 30px;
+    }
+    .techteams{
+        top:1700px
+    }
+    .clubsdescription1{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 0;
+    }
+    .clubsdescription1 li{
+        display: inline-block;
+        width: 25%;
+        margin: 20px 0.5%;
+    }
+    .clubsdescription2{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 0;
+    }
+    .clubsdescription2 li{
+        display: inline-block;
+        width: 25%;
+        margin: 20px 0.5%;
+    }
+    .techteamsdescription1{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 0;
+    }
+    .techteamsdescription1 li{
+        display: inline-block;
+        width: 25%;
+        margin: 5px 1%;
+    }
+    .techteamsdescription2{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 0;
+    }
+    .techteamsdescription2 li{
+        display: inline-block;
+        width: 25%;
+        margin: 5px 1%;
+    }
+    .techteamsdescription3{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 0;
+    }
+    .techteamsdescription3 li{
+        display: inline-block;
+        width: 25%;
+        margin: 5px 1%;
+    }
+    .techteamsdescription4 img {
+        position:relative;
+        
+        width: 25%;   
+    }
+}
+@media screen and (max-width:450px){
+    .welcomehead{
+        font-size: 40px;
+    }
+    .logoimg{
+        width:45%
+    }
+    .logoline{
+        font-size: 20px;
+    }
+    .abouthead{
+        font-size: 30px;
+    }
+    .aboutp{
+        font-size: 20px;
+    }
+    .aboutarticle{
+        font-size: 18px;
+    }
+    .clubs{
+        top: 1000px;
+    }
+    .clubsdescription1{
+        text-align: center;
+        margin:40px 0;
+        padding-left:80px ;
+    }
+    .clubsdescription1 li{
+        display: block;
+        width: 80%;
+        margin: 20px 2%;
+    }
+    .clubsdescription2{
+        text-align: center;
+        margin:40px 0;
+        padding-left:80px ;
+    }
+    .clubsdescription2 li{
+        display: block;
+        width: 80%;
+        margin: 20px 2%;
+    }
+    .techteams{
+        top:3200px;
+    }
+    .techteamsdescription1{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 100px;
+    }
+    .techteamsdescription1 li{
+        display: block;
+        width: 70%;
+        margin: 20px 1%;
+    }
+    .techteamsdescription2{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 100px;
+    }
+    .techteamsdescription2 li{
+        display: block;
+        width: 70%;
+        margin: 20px 1%;
+    }
+    .techteamsdescription3{
+        text-align: left;
+        margin:40px 0;
+        white-space: nowrap;
+        padding-left: 100px;
+    }
+    .techteamsdescription3 li{
+        display:block;
+        width: 70%;
+        margin: 20px 1%;
+    }
+    .techteamsdescription4 img{
+        width:55%;
+        left:100px
+    }
+
+    
+    
+}
